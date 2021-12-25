@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "corgitaco.phantomspawntweaks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "phantomspawntweaks.refmap.json",
+  "mixins": [
+    "MixinMinecraftServer",
+    "MixinPhantomSpawner",
+    "MixinServerPlayerEntity",
+    "StatsAccess"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

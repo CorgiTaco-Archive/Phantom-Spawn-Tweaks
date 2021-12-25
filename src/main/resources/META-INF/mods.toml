@@ -1,0 +1,21 @@
+modLoader = "javafml"
+loaderVersion = "[33,)"
+license = "LGPLv3"
+issueTrackerURL = ""
+[[mods]]
+modId = "phantomspawntweaks"
+version = "1.0"
+displayName = "Phantom Spawn Tweaks"
+displayURL = ""
+logoFile = "icon.png"
+credits = ""
+authors = "Corgi Taco"
+description = '''
+A mod that lets you tweak the properties of phantom spawns.
+'''
+[[dependencies.phantomspawntweaks]]
+modId = "forge"
+mandatory = true
+versionRange = "[33.0.0,)"
+ordering = "NONE"
+side = "BOTH"
